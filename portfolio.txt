@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sivanesh T — Portfolio</title>
+  <meta name="description" content="Sivanesh T — B.Tech (Information Technology). Web & Software Developer interested in Data Science. Skills: Python, C, Java, HTML, CSS, Node.js." />
+
+  <!-- Simple modern styles (self-contained) -->
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#9aa6b2;--glass:rgba(255,255,255,0.04)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial;color:#e6eef6;background:linear-gradient(180deg,#071021 0%,#07182a 100%);-webkit-font-smoothing:antialiased}
+    .container{max-width:1000px;margin:40px auto;padding:24px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:110px;height:110px;border-radius:18px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;color:#021220;font-size:28px;flex:0 0 110px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    h1{font-size:28px;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:28px}
+
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:14px;padding:18px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+
+    .section-title{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+    .pill{background:var(--glass);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:13px}
+
+    .skills{display:flex;flex-direction:column;gap:10px}
+    .skill{display:flex;justify-content:space-between;align-items:center}
+    .bar{height:10px;background:rgba(255,255,255,0.06);border-radius:999px;overflow:hidden;flex:1;margin-left:12px}
+    .bar > i{display:block;height:100%}
+
+    .projects{display:grid;grid-template-columns:1fr;gap:12px}
+    .project{padding:12px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.015),transparent)}
+    .project h4{margin:0 0 6px}
+    .meta{font-size:13px;color:var(--muted)}
+
+    aside .card + .card{margin-top:16px}
+    .contact-list{display:flex;flex-direction:column;gap:8px}
+    a.button{display:inline-block;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#7c3aed);color:#022124;text-decoration:none;font-weight:600}
+    footer{margin-top:36px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media(max-width:880px){.grid{grid-template-columns:1fr;}.avatar{width:88px;height:88px;font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">PB</div>
+      <div>
+        <h1>Sivanesh T — Web & Software Developer</h1>
+        <p class="lead">B.Tech, Information Technology • Interested in Learning Data Science</p>
+        <p style="margin-top:10px;color:var(--muted)">I build clean, accessible web apps and software. Comfortable with full-stack basics and eager to expand into data science and machine learning.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <div class="section-title">
+            <div class="pill">About</div>
+          </div>
+          <p>Hi — I'm Sivanesh, a B.Tech (Information Technology) graduate and a web & software developer. I love turning ideas into responsive websites and useful tools. Currently I am learning data science and strengthening my programming fundamentals.</p>
+
+          <div style="margin-top:18px" class="section-title">
+            <div class="pill">Skills</div>
+          </div>
+          <div class="skills">
+            <div class="skill"><strong>Python (basic)</strong><div class="bar"><i style="width:60%;background:linear-gradient(90deg,var(--accent),#7c3aed);"></i></div></div>
+            <div class="skill"><strong>C (basic)</strong><div class="bar"><i style="width:50%;background:linear-gradient(90deg,var(--accent),#7c3aed);"></i></div></div>
+            <div class="skill"><strong>Java</strong><div class="bar"><i style="width:55%;background:linear-gradient(90deg,var(--accent),#7c3aed);"></i></div></div>
+            <div class="skill"><strong>HTML &amp; CSS</strong><div class="bar"><i style="width:85%;background:linear-gradient(90deg,var(--accent),#7c3aed);"></i></div></div>
+            <div class="skill"><strong>Node.js</strong><div class="bar"><i style="width:70%;background:linear-gradient(90deg,var(--accent),#7c3aed);"></i></div></div>
+          </div>
+
+          <div style="margin-top:18px" class="section-title">
+            <div class="pill">Selected Projects</div>
+          </div>
+          <div class="projects">
+            <article class="project">
+              <h4>Portfolio Website</h4>
+              <p class="meta">Personal responsive website built with HTML, CSS and JavaScript. Showcases projects, skills and contact information.</p>
+            </article>
+            <article class="project">
+              <h4>Mini Task Manager (Node.js)</h4>
+              <p class="meta">A small CRUD web app using Node.js and local storage for tasks and notes — focused on clean UI and usability.</p>
+            </article>
+            <article class="project">
+              <h4>Learning: Data Science Mini-Projects</h4>
+              <p class="meta">Exploratory data analysis notebooks and small models while learning Python for data science.</p>
+            </article>
+          </div>
+
+        </section>
+
+        <section style="margin-top:18px" class="card">
+          <div class="section-title"><div class="pill">Education</div></div>
+          <p><strong>B.Tech — Information Technology</strong><br/>Completed degree with emphasis on software development fundamentals, data structures, and web technologies.</p>
+
+          <div style="margin-top:12px" class="section-title"><div class="pill">What I'm learning</div></div>
+          <ul style="margin:8px 0 0 18px;color:var(--muted)">
+            <li>Data Science (Python, NumPy, Pandas, basic ML)</li>
+            <li>Advanced JavaScript and Node.js backend patterns</li>
+            <li>Clean UI & accessibility practices</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <div class="section-title"><div class="pill">Contact</div></div>
+          <div class="contact-list">
+            <div><strong>Email</strong><div class="meta">pravin182196@gmail.com</div></div>
+            <div><strong>Location</strong><div class="meta">India</div></div>
+            <div><strong>Resume</strong><div class="meta">link here</div></div>
+            <div style="margin-top:12px"><a class="button" href="mailto:pravin182196@gmail.com">Email Me</a></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-title"><div class="pill">Languages & Tools</div></div>
+          <ul style="margin:6px 0 0 18px;color:var(--muted)">
+            <li>Python (basic)</li>
+            <li>C (basic)</li>
+            <li>Java</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Node.js</li>
+            <li>Git & VS Code / PyCharm</li>
+          </ul>
+        </div>
+
+        <div class="card" style="text-align:center;margin-top:16px">
+          <div class="section-title"><div class="pill">Quick Links</div></div>
+          <a class="button" href="#">View Projects</a>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div>Built by Pravin B • <span style="color:var(--muted)">Made with HTML &amp; CSS — customise to add projects and contact details.</span></div>
+    </footer>
+  </div>
+</body>
+</html>
